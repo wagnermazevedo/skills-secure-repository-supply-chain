@@ -4,3 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+
+  - package-ecosystem: "npm"
+    directory: "/"  # ou onde estiver o seu package.json
+    schedule:
+      interval: "daily"
