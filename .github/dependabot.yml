@@ -4,8 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-
-  - package-ecosystem: "npm"
-    directory: "/"  # ou onde estiver o seu package.json
+  - package-ecosystem: "nuget"
+    directory: "/code/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
